@@ -1,0 +1,82 @@
+[
+ {
+        "id": 934277,
+        "name": "Moka",
+        "state": "",
+        "country": "MU",
+        "coord": {
+            "lon": 57.495831,
+            "lat": -20.218889
+        }
+    },
+    {
+        "id": 934282,
+        "name": "Midlands",
+        "state": "",
+        "country": "MU",
+        "coord": {
+            "lon": 57.558331,
+            "lat": -20.3325
+        }
+    },
+    {
+        "id": 934288,
+        "name": "Melrose",
+        "state": "",
+        "country": "MU",
+        "coord": {
+            "lon": 57.631939,
+            "lat": -20.26972
+        }
+    },
+    {
+        "id": 934292,
+        "name": "Republic",
+        "state": "",
+        "country": "MU",
+        "coord": {
+            "lon": 57.583328,
+            "lat": -20.299999
+        }
+    },
+    {
+        "id": 934303,
+        "name": "Mare Tabac",
+        "state": "",
+        "country": "MU",
+        "coord": {
+            "lon": 57.588612,
+            "lat": -20.435829
+        }
+    },
+    {
+        "id": 934309,
+        "name": "Mare d’Albert",
+        "state": "",
+        "country": "MU",
+        "coord": {
+            "lon": 57.62278,
+            "lat": -20.41861
+        }
+    },
+    {
+        "id": 934322,
+        "name": "Mahébourg",
+        "state": "",
+        "country": "MU",
+        "coord": {
+            "lon": 57.700001,
+            "lat": -20.40806
+        }
+    },
+    {
+        "id": 934333,
+        "name": "Long Mountain",
+        "state": "",
+        "country": "MU",
+        "coord": {
+            "lon": 57.562222,
+            "lat": -20.143061
+        }
+    }
+]

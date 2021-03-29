@@ -1,0 +1,21 @@
+.footer {
+    height: 105px;
+    background-image: url("https://www.transparenttextures.com/patterns/45-degree-fabric-light.png");
+    display: flex;
+    align-items: center;
+}
+
+.footer__logo {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.footer--color {
+    color: #83d16b;
+}
+
+.footer__item {
+    color: #757575;
+    margin-top: 5px;
+    padding-left: 20px;
+}
