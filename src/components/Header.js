@@ -1,8 +1,11 @@
 import './Header.css'
 import cityArr from '../city.json'
 
-function Header(props) {
-    const link = props.link;
+import React, {useContext} from 'react'
+import {Context} from '../Context'
+
+function Header() {
+    const context = useContext(Context);
 
     return (
         <>
@@ -13,7 +16,10 @@ function Header(props) {
 
                         <div className='header__nav col-10'>
                             {cityArr.map((item, index) => index < 5
-                                ? <nav key={item.id} className='header__link'>{item.name}</nav>
+                                ? <nav key={item.id} 
+                                        className='header__link'
+                                        onClick={() => context.handleClickCity(item)}
+                                >{item.name}</nav>
                                 : null)}
                         </div>
                     </div>

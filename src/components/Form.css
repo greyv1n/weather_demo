@@ -1,0 +1,125 @@
+.forms {
+    position: relative;
+}
+
+.form__helps {
+    display: block;
+    width: 300px;
+    height: 120px;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    background: #ebecec;
+    margin-right: 50px;
+    margin-bottom: 70px;
+    padding: 20px;
+    cursor: pointer;
+    border: 1px solid #cfd8dc;
+}
+
+.form__close {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: #ebecec;
+    top: -20px;
+    right: -20px;
+    border-radius: 100%;
+    cursor: pointer;
+}
+
+.from-close--x {
+    position: absolute;    
+    right: 7px;
+    top: -4px;
+    z-index: 10;
+}
+
+.form__close:hover {
+    background: #90a4ae;
+}
+
+.form__img {
+    background: url('../images/icon/comments.png') no-repeat;
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.form__massege__header {
+    width: 250px;
+    height: 40px;
+    background: rgb(53, 138, 217) url('../images/icon/form.png') no-repeat right 15px top 10px;
+    box-shadow: rgb(0 0 0 / 30%) 0px 4px 12px;
+    border-radius: 4px 4px 0px 0px;
+    color: #fff;
+    cursor: pointer;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+}
+
+.form__massege__header:hover {
+    background: rgb(109, 171, 230) url('../images/icon/chatbleck.png') no-repeat right 15px top 10px;
+    transition: background .2s linear;
+}
+
+.form__massege__text {
+    text-align: left;
+    font-weight: 500;
+    padding-left: 25px;
+    padding-top: 7px;
+}
+
+.form__open {
+    display: block;
+    width: 300px;
+    height: auto;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+}
+
+.form__open__header {
+    height: auto;
+    background: rgb(53, 138, 217);
+    color: #fff;
+    padding: 5px;
+    font-weight: 500;
+    text-align: center;
+}
+
+
+.from__btn__line{
+    color: #fff;
+    position: absolute;
+    top: 0;
+    right: 20px;
+    font-weight: 500;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.form__open__body {
+    border: 1px solid rgb(109, 171, 230);
+    margin: 10px;
+    padding: 20px 10px;
+    border-radius: 5px;
+
+}
+
+.name__inp, .email__inp {
+    margin-right: 20px;
+}
+
+.form__inp {
+    margin: 10px 0;
+    width: 100%;
+}
+
+.form__btn {
+    width: 100%;
+}
