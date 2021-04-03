@@ -24,7 +24,7 @@ function MainList() {
                     </div>
                     <div className="main__right col-md-7 col-12">
                         <div className="row justify-content-start">
-                            {dataDaily.map((item, index) => index > 0 && index < 5 ? <MainRight key={index} {...item} /> : null)}
+                            {dataDaily === undefined ? null : dataDaily.map((item, index) => index > 0 && index < 5 ? <MainRight key={index} {...item} /> : null)}
                         </div>
                     </div>
                 </div>
