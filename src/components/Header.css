@@ -16,11 +16,12 @@
 .header__nav {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
     font-size: 20px;
 }
 
 .header__link {
-    margin: 10px 20px;
+    margin-left: 25px;
     cursor: pointer;
 }
 
@@ -31,4 +32,19 @@
 
 .header--active {
     color: #83d16b;
+}
+
+@media (max-width: 770px) {
+    .header__nav {
+        display: none;
+    }
+}
+
+@media (max-width: 540px) {
+    
+}
+
+
+@media (max-width: 320px) {
+    
 }

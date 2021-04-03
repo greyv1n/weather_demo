@@ -17,12 +17,12 @@ function MainList() {
         <div className='main'>
             <div className="container">
                 <div className="row">
-                    <div className="main__left col-6">
+                    <div className="main__left col-md-5 col-12">
                         <div className="row justify-content-center">
                             <MainLeft  {...dataCurrent} city={city}/>
                         </div>
                     </div>
-                    <div className="main__right col-6">
+                    <div className="main__right col-md-7 col-12">
                         <div className="row justify-content-start">
                             {dataDaily.map((item, index) => index > 0 && index < 5 ? <MainRight key={index} {...item} /> : null)}
                         </div>

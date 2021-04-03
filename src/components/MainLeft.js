@@ -22,21 +22,22 @@ function MainLeft(props) {
 
     return (
         <>
-            <div className='main__header col-7'>
-                <h1 className='main__title'>{city}</h1>
-                <div className='main__time'>Time &nbsp;
-                    {hours < 10 ? '0' + hours : hours}:
-                    {minutes < 10 ? '0' + minutes: minutes}
-                </div>
-            </div>
-            <div className='main__left__items col-5' >
-                <div className='main__day'>{days.toUpperCase()}</div>
-                <div>{month} {year}</div>
+            <h1 className='main__title'>{city}</h1>
+            <div className='main__header col-5 '>
+
                 <div className='main__wrap__temp'>
                     <img src={imageUrl} alt={imageDescription} className='main__left__img' />
                     <span className='main__left__temp'>{temp} °</span>
                 </div>
                 <div>Real feel {realFeel}</div>
+            </div>
+            <div className='main__left__items col-7' >
+                <div className='main__day'>{days.toUpperCase()}</div>
+                <div>{month} {year}</div>
+                <div className='main__time'>Time &nbsp;
+                    {hours < 10 ? '0' + hours : hours}:
+                    {minutes < 10 ? '0' + minutes : minutes}
+                </div>
             </div>
         </>
     )

@@ -123,3 +123,13 @@
 .form__btn {
     width: 100%;
 }
+
+@media (max-width: 576px) {
+    .form__helps {
+        display: none;
+    }
+
+    .form__massege__header {
+        display: none;
+    }
+}

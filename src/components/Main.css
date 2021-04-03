@@ -3,7 +3,7 @@
     background-size: cover;
     background-position: center;
 
-    height: 500px;
+    min-height: 500px;
     max-width: 1500px;
     margin: 0 auto;
 }
@@ -23,7 +23,11 @@
 }
 
 .main__right__item {
-    border: 1px solid orange;
+    border-right: 1px solid orange;
+}
+
+.main__right__item:last-child {
+    border-right: none;
 }
 
 .main__list {
@@ -39,10 +43,12 @@
 }
 
 .main__title {
-    margin: 20px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 .main__left__items {
+    text-align: center;
     margin-top: 10px;
 }
 
@@ -67,12 +73,52 @@
 
 .main__left__img {
     position: absolute;
-    left: 65px;
+    left: 80px;
     top: -16px;
 }
 
 .main__left__temp {
     font-size: 45px;
-
 }
 
+
+@media (max-width: 991px) {
+    .main__time {
+        font-size: 20px;
+    }
+
+    .main__left__img {
+        left: 60px;
+    }
+}
+
+@media (max-width: 770px) {
+    .main__left__img {
+        left: 155px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main__left__img {
+        left: 93px;
+    }
+
+    .main__list {
+       display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid rgb(255, 255, 255);
+        background: #333;
+    }
+
+    .main__list__item {
+        font-size: 20px;
+        font-weight: 500;
+        margin: 0 10px;
+    } 
+
+    .main__list {
+        margin-top: 0;
+    }
+}

@@ -12,9 +12,9 @@ function Header() {
             <header className='header'>
                 <div className="container" >
                     <div className="row  align-items-center">
-                        <div className="header__logo col-2">Weather<span className='header--color'>Info</span></div>
+                        <div className="header__logo col-2 col-md-3">Weather<span className='header--color'>Info</span></div>
 
-                        <div className='header__nav col-10'>
+                        <div className='header__nav col-10 col-md-9'>
                             {cityArr.map((item, index) => index < 5
                                 ? <nav key={item.id} 
                                         className='header__link'

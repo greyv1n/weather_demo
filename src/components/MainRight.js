@@ -17,13 +17,13 @@ function MainRight(props) {
     const realFeel = Math.floor(+props.dew_point - 273);
     
     return (
-        <div className="main__right__item col-3">
+        <div className="main__right__item col-12 col-sm-3">
             <ul className='main__list '>
-                <li>{days.toUpperCase()}</li>
-                <li><img src={imageUrl} alt={imageDescription} className='main__img'/></li>
-                <li>Max {tempMin} °</li>
-                <li>Min {tempMax} °</li>
-                <li>Real feel {realFeel} °</li>
+                <li className='main__list__item'>{days.toUpperCase()}</li>
+                <li className='main__list__item'><img src={imageUrl} alt={imageDescription} className='main__img'/></li>
+                <li className='main__list__item'>Max {tempMin} °</li>
+                <li className='main__list__item'>Min {tempMax} °</li>
+                <li className='main__list__item'>Real feel {realFeel} °</li>
             </ul>
         </div>
     )
